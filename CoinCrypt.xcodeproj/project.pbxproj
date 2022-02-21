@@ -10,6 +10,7 @@
 		D78655962794A84F00CFFF20 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78655952794A84F00CFFF20 /* CoinManager.swift */; };
 		D786559C2794C31D00CFFF20 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786559B2794C31D00CFFF20 /* CoinModel.swift */; };
 		D786559E2794C33E00CFFF20 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D786559D2794C33E00CFFF20 /* DataModel.swift */; };
+		D7A5A71627C30CEA00435FDE /* CoinManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5A71527C30CEA00435FDE /* CoinManagerTest.swift */; };
 		D7AE038327949543000A4A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AE038227949543000A4A03 /* AppDelegate.swift */; };
 		D7AE038527949543000A4A03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AE038427949543000A4A03 /* SceneDelegate.swift */; };
 		D7AE038727949543000A4A03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AE038627949543000A4A03 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		D78655952794A84F00CFFF20 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		D786559B2794C31D00CFFF20 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		D786559D2794C33E00CFFF20 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		D7A5A71527C30CEA00435FDE /* CoinManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManagerTest.swift; sourceTree = "<group>"; };
 		D7AE037F27949543000A4A03 /* CoinCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AE038227949543000A4A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7AE038427949543000A4A03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		D7AE039827949544000A4A03 /* CoinCryptTests */ = {
 			isa = PBXGroup;
 			children = (
+				D7A5A71527C30CEA00435FDE /* CoinManagerTest.swift */,
 				D7AE039927949544000A4A03 /* CoinCryptTests.swift */,
 			);
 			path = CoinCryptTests;
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A5A71627C30CEA00435FDE /* CoinManagerTest.swift in Sources */,
 				D7AE039A27949544000A4A03 /* CoinCryptTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
